@@ -1,5 +1,7 @@
 package me.mindlessly.bantroll.events;
 
+import org.lwjgl.input.Mouse;
+
 import me.mindlessly.bantroll.gui.BanScreen;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiDisconnected;
@@ -25,6 +27,7 @@ public class GUIEvents {
 		if (event.gui instanceof GuiDisconnected && OnServerJoin.sent) {
 			Minecraft.getMinecraft().displayGuiScreen(new BanScreen());
 			OnServerJoin.sent = false;
+			Mouse.setGrabbed(false);
 		}
 	}
 }

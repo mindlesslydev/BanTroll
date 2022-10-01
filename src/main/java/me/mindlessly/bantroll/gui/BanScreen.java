@@ -1,7 +1,5 @@
 package me.mindlessly.bantroll.gui;
 
-import org.lwjgl.input.Mouse;
-
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.ScaledResolution;
@@ -43,7 +41,6 @@ public class BanScreen extends GuiScreen {
 		fontRendererObj.drawString(strings[3], (int) base - 45, resolution.getScaledHeight() / 3 + 50, 0);
 		fontRendererObj.drawString(strings[4], (int) base + 20, resolution.getScaledHeight() / 3 + 70, 0);
 		fontRendererObj.drawString(strings[5], (int) base - 88, resolution.getScaledHeight() / 3 + 80, 0);
-		Mouse.setGrabbed(false);
 	}
 
 }
