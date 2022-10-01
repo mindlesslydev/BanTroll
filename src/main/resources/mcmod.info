@@ -1,8 +1,8 @@
 [
   {
-    "modid": "tmr",
-    "name": "TokenManager",
-    "description": "Please fix your shit Mojang!",
+    "modid": "lol",
+    "name": "BanTroll",
+    "description": "Like the real thing, only fake!",
     "version": "${version}",
     "mcversion": "1.8.9",
     "url": "a.com",
